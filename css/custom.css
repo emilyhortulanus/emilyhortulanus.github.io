@@ -1,7 +1,7 @@
 body {
     padding: 0;
     border-right: 0;
-    background-color: #f3f3f3;
+    background-color: #fff;
 
     display: -webkit-box;
     display: -ms-flexbox;
@@ -18,7 +18,6 @@ body {
     width: 100%;
     overflow: hidden;
     position: fixed;
-    font-family: "Roboto";
 }
 
 @media (min-width: 768px) {
@@ -28,7 +27,7 @@ body {
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cerebri Sans Book', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
     color: #333;
 }
 
@@ -79,16 +78,6 @@ a:hover {
 
 a:hover:after {
     height: 100%;
-}
-
-.svg-backdrop {
-    top: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    max-height: 30vh;
-    opacity: 0.1;
-    z-index: -1;
 }
 
 @media (min-width: 768px) {
